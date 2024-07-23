@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mensagem secreta</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1 class="apresentacao_titulo">Mensagem Secreta</h1>
+        
+    </header>
+    <main>
+        <div>
+            
+        </div>
+        <div class="secao_cripto">
+            <h2 class="titulo_destaque">
+                <img class="imagem_arquivo" src="./assets/arquivo.png" alt="">
+            Criptografar e Descriptografar</h2>
+            <div class="secao_input">
+                
+                
+                <input id="texto" class="texto_criptografado" type="text" placeholder="Digite seu texto">
+                
+                <p class="texto_atencao"><img class="imagem_texto" src="./assets/atencao_logo.png" alt="Atenção">Digite somente letras minusculas e sem acentos</p>
+                
+            </div>
+           
+            <div class="butao"> 
+                <button onclick="criptografar()" class="crypt">Criptografar</button>
+                <button onclick="descriptografar()" class="decrypt">Descriptografar</button>
+                <button onclick="copiarTexto()" class="copy">Copiar</button>
+            </div>
+            
+            <div class="secao_descriptografa">
+                <div class="input_com_imagem">
+                
+                    <textarea id="resultado" class="texto_descriptografado" placeholder="" disabled></textarea>
+                    <img class="imagem_lateral" src="./assets/2.png" alt="Imagem ao lado do input">
+                </div>
+            </div>
+        </div>
+        
+    </main>
+    <footer>
+        <a class="apresentacao_link" href="https://github.com/Izabel-Moreira">GitHub</a>
+        <a class="apresentacao_link" href="https://www.linkedin.com/in/izabel-moreira-corr%C3%AAa-rodrigues/">Linkedin</a>
+    </footer>
+</body>
+</html>

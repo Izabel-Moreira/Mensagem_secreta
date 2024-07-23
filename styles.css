@@ -1,0 +1,229 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Playwrite+BE+VLG:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Playwrite+BE+VLG:wght@100..400&display=swap');
+:root {
+    --primeira_cor: #EAEBED;
+    --segunda_cor: #006989;
+    --terceira_cor: #A3BAC3;
+    --quarta_cor: #007080;
+    --quinta_cor: #01A7C2;
+    --sexta_cor:white;
+    --setima_cor: rgb(12, 74, 78);
+}
+
+
+.body {
+    font-size: 24px;
+    font-weight: bold;
+    color: white; 
+    padding: 10px; 
+    text-align: center; 
+    border-radius: 5px; 
+}
+
+
+main {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    background-image: url(./assets/degrade.jfif);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+header h1 {
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: 100px;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    font-size: 40px;
+    color: var(--sexta_cor);
+    text-shadow: 0 3px black;
+}
+.imagem_arquivo{
+    width: 10%;
+    display: flex;
+    align-items: first baseline;
+    
+}
+.secao_cripto {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+}
+
+
+.titulo_destaque {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.texto_atencao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    margin: 10px;
+   
+}
+.imagem_texto{
+    background-color: var(--sexta_cor);
+    width: 4%;
+    display: flex;
+    align-items: first baseline;
+    padding: 10px;
+}
+.secao_input{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.input_com_imagem{
+    display: flex;
+    align-items: center;
+}
+
+.imagem_lateral{
+    margin-right: 10px; 
+    width: 150px; 
+    height: 20%;
+    
+    
+}
+.secao_descriptografia {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: last baseline;
+    padding: 20px;
+}
+.butao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.texto_criptografado {
+    width: 70%;
+    padding: 20px;
+    font-size: 16px;
+    border: 2px solid var(--quinta_cor);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.texto_descriptografado {
+    width: 65%;
+    padding: 70px;
+    font-size: 16px;
+    border: 2px solid var(--quinta_cor);
+    border-radius: 5px;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.crypt, .decrypt, .copy {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.crypt {
+    background-color: var(--quarta_cor);
+    color: var(--sexta_cor);
+}
+
+.crypt:hover {
+    background-color: var(--quinta_cor);
+    width: 120%;
+    border: 4px solid var(--segunda_cor);
+
+}
+
+.decrypt {
+    background-color: var(--quarta_cor);
+    color: var(--sexta_cor);
+}
+
+.decrypt:hover {
+    background-color: var(--quinta_cor);
+    width: 120%;
+    border: 4px solid var(--segunda_cor);
+}
+.copy{
+    background-color: var(--quarta_cor);
+    color: var(--sexta_cor);
+}
+.copy:hover {
+    background-color: var(--quinta_cor);
+    width: 120%;
+    border: 4px solid var(--segunda_cor);
+}
+
+footer {
+    background-color: var(--quinta_cor);
+    color: var(--sexta_cor);
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-image: url(./asses/R.jfif);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.apresentacao_link {
+    color: #EAEBED;
+    text-decoration: none;
+    padding: 10px;
+}
+
+
+
